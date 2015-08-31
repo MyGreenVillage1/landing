@@ -59,7 +59,7 @@
         <div class="form col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <h1>Be the first to know.</h1>
           <p>Sign up to get notified about our launch and receive free green tips!</p>
-          <table>
+          <table class="table-form">
             <form>
               <tr>
                 <td><label for="email">Your email: </label></td>
@@ -67,11 +67,17 @@
               </tr>
               <tr>
                 <td><label for="type">You are: </label></td>
-                <td><input type="checkbox" name="type" value="homeowner" /> a homeowner</td>
+                <td class="check">
+                  <input type="checkbox" value="homeowner" id="homeowner" name="type" />
+                  <label for="homeowner"></label><span>a homeowner</span>
+                </td>
               </tr>
               <tr>
                 <td></td>
-                <td><input type="checkbox" name="type" value="provider" /> a green service provider</td>
+                <td class="check">
+                  <input type="checkbox" value="provider" id="provider" name="type" />
+                  <label for="provider"></label><span>a green service provider</span>
+                </td>
               </tr>
               <tr>
                 <td colspan="2"><input type="submit" value="SIGN UP NOW &#8594;" /></td></tr>
