@@ -1,3 +1,27 @@
+@media (max-width: 400px) {
+  img[src="img/flower.png"] {
+    width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  img[src="img/flower.png"] {
+    width: 300px;
+  }
+}
+
+@media (min-width: 600px) {
+  img[src="img/flower.png"] {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  img[src="img/flower.png"] {
+    width: 450px;
+  }
+}
+
 body {
   background-color: #D3EBD4;
   color: #2E2E2E;
@@ -17,11 +41,24 @@ header {
   color: #388E3C;
 }
 
+header span {
+  letter-spacing: -2px;
+  margin-right: 1em;
+}
+
+header p {
+  display: inline;
+}
+
 img[src="img/flower.png"] {
   position: absolute;
   top: 10%;
   left: -100px;
-  width: 50%;
+  -webkit-filter: grayscale(10%);
+  -moz-filter:    grayscale(10%);
+  -ms-filter:     grayscale(10%);
+  -o-filter:      grayscale(10%);
+  filter: gray;
 }
 
 .first-section {
@@ -50,10 +87,46 @@ img[src="img/flower.png"] {
   opacity: 0.6;
 }
 
+.third-section h1 {
+  padding-bottom: 0.5em;
+}
+
+.third-section p {
+  padding-bottom: 1em;
+}
+
+.form td:first-child {
+  padding: 0.5em 1em 0.5em 0;
+}
+
 .images table tr:first-child td {
   text-align: right;
   vertical-align: bottom;
 }
+
+input[type="email"] {
+  background: transparent;
+  border: 1px solid #2E2E2E;
+  border-radius: 2px;
+}
+
+input[type="submit"] {
+  background: transparent;
+  border: 1px solid #388E3C;
+  border-radius: 2px;
+  color: #388E3C;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+}
+
+input[type="submit"]:hover {
+  background: #388E3C;
+  border: 1px solid #388E3C;
+  border-radius: 2px;
+  color: white;
+
+}
+
 
 img[src="img/cleaner.jpg"] {
   width: 160px;
