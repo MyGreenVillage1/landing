@@ -2,6 +2,13 @@ body {
   background-color: #D3EBD4;
   color: #2E2E2E;
   font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.7em;
+  font-weight: 300;
 }
 
 header {
@@ -39,8 +46,35 @@ img[src="img/flower.png"] {
 }
 
 .third-section img {
+  margin: 0;
+  opacity: 0.6;
+}
+
+.images table tr:first-child td {
+  text-align: right;
+  vertical-align: bottom;
+}
+
+img[src="img/cleaner.jpg"] {
   width: 160px;
 }
+
+img[src="img/carpentry.jpg"] {
+  width: 250px;
+}
+
+img[src="img/scrubbing.jpg"] {
+  width: 60px;
+}
+
+img[src="img/housepainter.jpg"] {
+  width: 140px;
+}
+
+img[src="img/plumber.jpg"] {
+  width: 250px;
+}
+
 
 img[src="img/pinecone.png"] {
   position: absolute;
