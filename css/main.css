@@ -34,6 +34,14 @@ img[src="img/flower.png"] {
   text-align: center;
 }
 
+.third-section div {
+  padding: 3em 5em 3em 0;
+}
+
+.third-section img {
+  width: 160px;
+}
+
 img[src="img/pinecone.png"] {
   position: absolute;
   bottom: -100px;
