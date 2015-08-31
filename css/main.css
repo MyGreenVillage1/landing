@@ -1,22 +1,42 @@
+body {
+  background-color: #D3EBD4;
+  color: #2E2E2E;
+  font-size: 17px;
+}
 
+header {
+  text-align: right;
+  padding: 2em 4em;
+  color: #388E3C;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+img[src="img/flower.png"] {
+  position: absolute;
+  top: 10%;
+  left: -100px;
+  width: 50%;
+}
 
+.first-section {
+  padding: 8em 0;
+}
 
+.second-section {
+  padding: 8em 0;
+  background: linear-gradient(rgba(126, 185, 129, 0.8), rgba(126, 185, 129, 0.8)), url('../img/handshake.jpg');
+  border-top: 2px solid #388E3C;
+  border-bottom: 2px solid #388E3C;
+}
 
+.second-section div {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+img[src="img/pinecone.png"] {
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+  width: 60%;
+}
