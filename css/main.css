@@ -90,7 +90,7 @@ img[src="img/flower.png"] {
 }
 
 .first-section {
-  padding: 8em 0;
+  padding: 8em 2em 8em 0;
 }
 
 .second-section {
@@ -150,7 +150,7 @@ input[type="email"] {
   margin-bottom: 1em;
 }
 
-input[type="submit"] {
+input[type="submit"], .home-link {
   background: transparent;
   border: 1px solid #388E3C;
   border-radius: 2px;
@@ -159,7 +159,15 @@ input[type="submit"] {
   margin-top: 1em;
 }
 
-input[type="submit"]:hover {
+a, a:visited, a:hover {
+  color: #388E3C;
+}
+
+.address-link {
+  margin: 1.5em 0 2em 0;
+}
+
+input[type="submit"]:hover, .home-link:hover {
   background: #388E3C;
   border: 1px solid #388E3C;
   border-radius: 2px;
