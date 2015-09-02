@@ -200,3 +200,8 @@ img[src="img/pinecone.png"] {
   width: 60%;
   float: right;
 }
+
+.success-footer {
+  position: absolute;
+  bottom: 0;
+}
